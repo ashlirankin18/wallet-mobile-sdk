@@ -5,16 +5,16 @@
 //  Created by Jungho Bang on 10/7/22.
 //
 
-import XCTest
-@testable import CoinbaseWalletSDK
+// import XCTest
+// @testable import CoinbaseWalletSDK
 
-class ExampleTest: XCTestCase {
+// class ExampleTest: XCTestCase {
 
-    func testCoinbaseWalletSDKConfigure() {
-        XCTAssertFalse(CoinbaseWalletSDK.isConfigured)
+//     func testCoinbaseWalletSDKConfigure() {
+//         XCTAssertFalse(CoinbaseWalletSDK.isConfigured)
         
-        CoinbaseWalletSDK.configure(callback: URL(string: "myappxyz://mycallback")!)
-        XCTAssertTrue(CoinbaseWalletSDK.isConfigured)
-    }
+//         CoinbaseWalletSDK.configure(callback: URL(string: "myappxyz://mycallback")!)
+//         XCTAssertTrue(CoinbaseWalletSDK.isConfigured)
+//     }
 
-}
+// }
